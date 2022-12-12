@@ -1,11 +1,13 @@
 import React from "react";
 import "./style.css";
+import Heading from "./Heading";
 
-export default function App() {
-  return (
-    <div>
-      <h1>Hello StabckBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
-  );
+function App() {
+  return (
+    <div className="App">
+      <Heading />
+    </div>
+  );
 }
+
+export default App;
