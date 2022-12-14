@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
-function Heading() {
+function Heading(props) {
       return (
-          <h1>This is an h1 heading</h1>
+          <h1>Firsr Name is ,{props.firstName}</h1>
       )
   }
   
